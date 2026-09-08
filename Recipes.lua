@@ -20,6 +20,8 @@ local Q = constants.ITEM_QUALITIES
 local V = constants.GAME_VERSIONS
 local Z = constants.ZONE_NAMES
 
+local IS_TBC = tonumber(_G.GetBuildInfo():match("^(%d+)")) == V.TBC
+
 local FAC = constants.FACTION_IDS
 local REP = constants.REP_LEVELS
 
@@ -229,12 +231,16 @@ function module:InitializeRecipes()
     -- Soothing Turtle Bisque -- 3400
     recipe = AddRecipe(3400, V.ORIG, Q.COMMON)
     recipe:SetSkillLevels(175, 175, 215, 235, 255)
-    recipe:SetRecipeItem(3737, "BIND_ON_PICKUP")
+    recipe:SetRecipeItem(3737, IS_TBC and "BIND_ON_EQUIP" or "BIND_ON_PICKUP")
     recipe:SetCraftedItem(3729, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
-        46709, 47405, 49789, 54232)
+    if IS_TBC then
+        recipe:AddQuest(555, 7321)
+    else
+        recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
+            17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+            46709, 47405, 49789, 54232)
+    end
 
     -- Barbecued Buzzard Wing -- 4094
     recipe = AddRecipe(4094, V.ORIG, Q.COMMON)

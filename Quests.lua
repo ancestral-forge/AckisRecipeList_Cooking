@@ -30,9 +30,11 @@ function module:InitializeQuests()
 	end
 
 	AddQuest(384,	Z.DUN_MOROGH,			46.8,	52.5,	"Alliance")
+	AddQuest(555,	Z.HILLSBRAD_FOOTHILLS,	51.9,	58.7,	"Alliance")
 	AddQuest(564,	Z.HILLSBRAD_FOOTHILLS,	52.4,	56.0,	"Alliance")
 	AddQuest(4161,	Z.TELDRASSIL,			57.0,	61.2,	"Alliance")
 	AddQuest(6610,	Z.TANARIS,			52.6,	29.0,	"Neutral")
+	AddQuest(7321,	Z.HILLSBRAD_FOOTHILLS,	62.3,	19.0,	"Horde")
 	AddQuest(8313,	Z.SILITHUS,			43.6,	42.0,	"Neutral")
 	AddQuest(9171,	Z.GHOSTLANDS,			48.3,	30.9,	"Horde")
 	AddQuest(9356,	Z.HELLFIRE_PENINSULA,		49.2,	74.8,	"Neutral")
