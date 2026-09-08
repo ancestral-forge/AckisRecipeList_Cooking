@@ -20,6 +20,8 @@ local Q = constants.ITEM_QUALITIES
 local V = constants.GAME_VERSIONS
 local Z = constants.ZONE_NAMES
 
+local IS_TBC = tonumber(_G.GetBuildInfo():match("^(%d+)")) == V.TBC
+
 local FAC = constants.FACTION_IDS
 local REP = constants.REP_LEVELS
 
@@ -85,8 +87,8 @@ function module:InitializeRecipes()
 
     -- Westfall Stew -- 2543
     recipe = AddRecipe(2543, V.ORIG, Q.COMMON)
-    recipe:SetSkillLevels(50, 50, 115, 135, 155)
-    recipe:SetRecipeItem(728, "BIND_ON_PICKUP")
+    recipe:SetSkillLevels(IS_TBC and 75 or 50, IS_TBC and 75 or 50, 115, 135, 155)
+    recipe:SetRecipeItem(728, IS_TBC and "BIND_ON_EQUIP" or "BIND_ON_PICKUP")
     recipe:SetCraftedItem(733, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE)
     recipe:AddVendor(340)
@@ -103,7 +105,7 @@ function module:InitializeRecipes()
     -- Cooked Crab Claw -- 2545
     recipe = AddRecipe(2545, V.ORIG, Q.COMMON)
     recipe:SetSkillLevels(85, 85, 125, 145, 165)
-    recipe:SetRecipeItem(2698, "BIND_ON_PICKUP")
+    recipe:SetRecipeItem(2698, IS_TBC and "BIND_ON_EQUIP" or "BIND_ON_PICKUP")
     recipe:SetCraftedItem(2682, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
     recipe:AddVendor(340)
@@ -141,7 +143,9 @@ function module:InitializeRecipes()
     recipe:SetCraftedItem(1017, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HEALER, F.CASTER)
     recipe:AddVendor(340)
-    recipe:AddQuest(26620)
+    if not IS_TBC then
+        recipe:AddQuest(26620)
+    end
 
     -- Beer Basted Boar Ribs -- 2795
     recipe = AddRecipe(2795, V.ORIG, Q.COMMON)
@@ -167,7 +171,9 @@ function module:InitializeRecipes()
     recipe:SetCraftedItem(3220, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HEALER, F.CASTER)
     recipe:AddVendor(340)
-    recipe:AddQuest(26860)
+    if not IS_TBC then
+        recipe:AddQuest(26860)
+    end
 
     -- Murloc Fin Soup -- 3372
     recipe = AddRecipe(3372, V.ORIG, Q.COMMON)
@@ -200,7 +206,9 @@ function module:InitializeRecipes()
     recipe:SetCraftedItem(3666, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HEALER, F.CASTER)
     recipe:AddVendor(340)
-    recipe:AddQuest(26623)
+    if not IS_TBC then
+        recipe:AddQuest(26623)
+    end
 
     -- Big Bear Steak -- 3397
     recipe = AddRecipe(3397, V.ORIG, Q.COMMON)
@@ -208,7 +216,13 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(3734, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(3726, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:Retire()
+    if IS_TBC then
+        recipe:AddVendor(3960)
+        recipe:AddLimitedVendor(12246, 1)
+        recipe:AddQuest(498)
+    else
+        recipe:Retire()
+    end
 
     -- Hot Lion Chops -- 3398
     recipe = AddRecipe(3398, V.ORIG, Q.COMMON)
@@ -221,7 +235,7 @@ function module:InitializeRecipes()
     -- Tasty Lion Steak -- 3399
     recipe = AddRecipe(3399, V.ORIG, Q.COMMON)
     recipe:SetSkillLevels(150, 150, 190, 210, 230)
-    recipe:SetRecipeItem(3736, "BIND_ON_PICKUP")
+    recipe:SetRecipeItem(3736, IS_TBC and "BIND_ON_EQUIP" or "BIND_ON_PICKUP")
     recipe:SetCraftedItem(3728, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HEALER, F.CASTER)
     recipe:AddQuest(564)
@@ -292,10 +306,18 @@ function module:InitializeRecipes()
     -- Dig Rat Stew -- 6417
     recipe = AddRecipe(6417, V.ORIG, Q.UNCOMMON)
     recipe:SetSkillLevels(90, 90, 130, 150, 170)
-    recipe:SetRecipeItem(78342, "BIND_ON_PICKUP")
+    if IS_TBC then
+        recipe:SetRecipeItem(5487, "BIND_ON_EQUIP")
+    else
+        recipe:SetRecipeItem(78342, "BIND_ON_PICKUP")
+    end
     recipe:SetCraftedItem(5478, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddMobDrop(3444)
+    if IS_TBC then
+        recipe:AddQuest(862)
+    else
+        recipe:AddMobDrop(3444)
+    end
 
     -- Crispy Lizard Tail -- 6418
     recipe = AddRecipe(6418, V.ORIG, Q.COMMON)
@@ -311,7 +333,12 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(5489, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(5480, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:Retire()
+    if IS_TBC then
+        recipe:AddVendor(3960)
+        recipe:AddLimitedVendor(12245, 1)
+    else
+        recipe:Retire()
+    end
 
     -- Boiled Clams -- 6499
     recipe = AddRecipe(6499, V.ORIG, Q.COMMON)
@@ -407,7 +434,11 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(6661, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(6657, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddWorldDrop(Z.NORTHERN_BARRENS, Z.SOUTHERN_BARRENS)
+    if IS_TBC then
+        recipe:AddWorldDrop(Z.THE_BARRENS)
+    else
+        recipe:AddWorldDrop(Z.NORTHERN_BARRENS, Z.SOUTHERN_BARRENS)
+    end
 
     -- Herb Baked Egg -- 8604
     recipe = AddRecipe(8604, V.ORIG, Q.COMMON)
@@ -445,7 +476,11 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(12227, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(12209, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:Retire()
+    if IS_TBC then
+        recipe:AddLimitedVendor(12246, 1)
+    else
+        recipe:Retire()
+    end
 
     -- Roast Raptor -- 15855
     recipe = AddRecipe(15855, V.ORIG, Q.COMMON)
@@ -695,7 +730,11 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(21025, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(21023, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:Retire()
+    if IS_TBC then
+        recipe:AddQuest(8586)
+    else
+        recipe:Retire()
+    end
 
     -- Smoked Sagefish -- 25704
     recipe = AddRecipe(25704, V.ORIG, Q.COMMON)
@@ -766,6 +805,14 @@ function module:InitializeRecipes()
     recipe:SetCraftedItem(27655, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS, F.HEALER, F.CASTER)
     recipe:AddVendor(16585, 16826)
+
+    -- Sporeling Snack -- 33285
+    recipe = AddRecipe(33285, V.TBC, Q.COMMON)
+    recipe:SetSkillLevels(310, 310, 330, 340, 350)
+    recipe:SetRecipeItem(27689, "BIND_ON_EQUIP")
+    recipe:SetCraftedItem(27656, "BIND_ON_EQUIP")
+    recipe:AddFilters(F.ALLIANCE, F.HORDE)
+    recipe:AddVendor(18382)
 
     -- Blackened Basilisk -- 33286
     recipe = AddRecipe(33286, V.TBC, Q.COMMON)
@@ -927,8 +974,13 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(33871, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(33866, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddQuest(11377, 11379, 11380, 11381, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
-    recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    if IS_TBC then
+        recipe:AddQuest(11377, 11379, 11380, 11381)
+        recipe:AddCustom("DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    else
+        recipe:AddQuest(11377, 11379, 11380, 11381, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
+        recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    end
 
     -- Broiled Bloodfin -- 43761
     recipe = AddRecipe(43761, V.TBC, Q.UNCOMMON)
@@ -963,14 +1015,19 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(33925, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(33924, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddQuest(11377, 11379, 11380, 11381, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
-    recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    if IS_TBC then
+        recipe:AddQuest(11377, 11379, 11380, 11381)
+        recipe:AddCustom("DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    else
+        recipe:AddQuest(11377, 11379, 11380, 11381, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
+        recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    end
 
     -------------------------------------------------------------------------------
     -- Wrath of the Lich King.
     -------------------------------------------------------------------------------
     -- Hot Apple Cider -- 45022
-    recipe = AddRecipe(45022, V.WOTLK, Q.COMMON)
+    recipe = AddRecipe(45022, V.TBC, Q.COMMON)
     recipe:SetSkillLevels(325, 325, 325, 325, 325)
     recipe:SetRecipeItem(34413, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(34411, "BIND_ON_EQUIP")
@@ -1149,33 +1206,46 @@ function module:InitializeRecipes()
     recipe:AddVendor(31031, 31032, 33595)
 
     -- Captain Rumsey's Lager -- 45695
-    recipe = AddRecipe(45695, V.WOTLK, Q.UNCOMMON)
+    recipe = AddRecipe(45695, V.TBC, Q.UNCOMMON)
     recipe:SetSkillLevels(100, 100, 100, 105, 110)
     recipe:SetRecipeItem(34834, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(34832, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddQuest(11666, 11667, 11668, 11669, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
-    recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_FISHING_SHATT")
+    if IS_TBC then
+        recipe:AddQuest(11665, 11666, 11667, 11668, 11669)
+        recipe:AddCustom("DAILY_FISHING_SHATT")
+    else
+        recipe:AddQuest(11666, 11667, 11668, 11669, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
+        recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_FISHING_SHATT")
+    end
 
     -- Charred Bear Kabobs -- 46684
-    recipe = AddRecipe(46684, V.WOTLK, Q.COMMON)
+    recipe = AddRecipe(46684, V.TBC, Q.COMMON)
     recipe:SetSkillLevels(250, 250, 275, 285, 295)
     recipe:SetRecipeItem(35564, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(35563, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
-        46709, 47405, 49789, 54232)
+    if IS_TBC then
+        recipe:AddVendor(2803, 2806)
+    else
+        recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
+            17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+            46709, 47405, 49789, 54232)
+    end
 
     -- Juicy Bear Burger -- 46688
-    recipe = AddRecipe(46688, V.WOTLK, Q.COMMON)
+    recipe = AddRecipe(46688, V.TBC, Q.COMMON)
     recipe:SetSkillLevels(250, 250, 275, 285, 295)
     recipe:SetRecipeItem(35566, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(35565, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
-        46709, 47405, 49789, 54232)
+    if IS_TBC then
+        recipe:AddVendor(2803, 2806)
+    else
+        recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
+            17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+            46709, 47405, 49789, 54232)
+    end
 
     -- Kungaloosh -- 53056
     recipe = AddRecipe(53056, V.WOTLK, Q.COMMON)

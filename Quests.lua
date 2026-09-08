@@ -97,5 +97,12 @@ function module:InitializeQuests()
 	AddQuest(56801,	Z.NAZJATAR,			50.8,	65.2,	"Horde")
 	AddQuest(56802,	Z.NAZJATAR,			50.8,	65.2,	"Horde")
 
+	if tonumber(_G.GetBuildInfo():match("^(%d+)")) == constants.GAME_VERSIONS.TBC then
+		AddQuest(498, Z.HILLSBRAD_FOOTHILLS, 63.2, 20.7, "Horde")
+		AddQuest(862, Z.THE_BARRENS, 55.3, 31.8, "Horde")
+		AddQuest(8586, Z.TANARIS, 52.6, 28.1, "Neutral")
+		AddQuest(11665, Z.TEROKKAR_FOREST, 38.7, 12.8, "Neutral")
+	end
+
 	self.InitializeQuests = nil
 end
