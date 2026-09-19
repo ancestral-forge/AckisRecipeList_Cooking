@@ -29,18 +29,22 @@
 
 ```sh
 lua local-patches/AckisRecipeList/tests/cooking-map.lua
-luacheck local-patches/AckisRecipeList/CookingMap.lua --std lua51 --no-max-line-length
+lua local-patches/AckisRecipeList/tests/vendor-seasonal.lua
+luacheck local-patches/AckisRecipeList/CookingMap.lua local-patches/AckisRecipeList/Objects/AcquireType/Vendor.lua --std lua51 --no-max-line-length
 python3 local-patches/AckisRecipeList/install.py
 ```
 
-Установщик добавляет `CookingMap.lua` в основной аддон и подключает его в TOC.
-Путь к другой установленной копии ARL можно передать первым аргументом.
-Исходный TOC и предыдущая версия расширения сохраняются в `backups/`.
-После установки нужен `/reload` в WoW. Обновление основного ARL менеджером
-аддонов может удалить расширение — тогда повторить установку.
+Установщик добавляет `CookingMap.lua` в основной аддон, подключает его в TOC
+и заменяет `Objects/AcquireType/Vendor.lua`, чтобы сезонные сноски были видны
+в классическом списке источников ARL рядом со штатными подсказками вроде
+ограниченного запаса. Путь к другой установленной копии ARL можно передать
+первым аргументом. Исходный TOC и предыдущие версии файлов сохраняются в
+`backups/`. После установки нужен `/reload` в WoW. Обновление основного ARL
+менеджером аддонов может удалить расширение — тогда повторить установку.
 
-Для удаления убрать строку `CookingMap.lua` из TOC и удалить этот файл из
-установленного ARL, затем `/reload`. База рецептов и SavedVariables не заменяются.
+Для удаления убрать строку `CookingMap.lua` из TOC, удалить этот файл и
+вернуть штатный `Objects/AcquireType/Vendor.lua` из бэкапа или переустановить
+основной ARL, затем `/reload`. База рецептов и SavedVariables не заменяются.
 
 Локальные тесты проверяют логику и работу с имитацией WoW API. Визуальная
 проверка в запущенном клиенте проводится отдельно.
