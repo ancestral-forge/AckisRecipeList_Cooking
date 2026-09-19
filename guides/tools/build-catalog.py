@@ -11,7 +11,10 @@ ADDONS = sys.argv[1] if len(sys.argv) > 1 else "/Applications/World of Warcraft/
 world = json.loads(subprocess.check_output(["lua", str(ROOT / "tools/export-world.lua"), ADDONS], text=True))
 baseline = json.loads((ROOT / "data/baseline.json").read_text())
 current = {}
-source_text = (Path(ADDONS) / "AckisRecipeList_Cooking/Recipes.lua").read_text()
+source_path = ROOT.parent / "Recipes.lua"
+if not source_path.exists():
+    source_path = Path(ADDONS) / "AckisRecipeList_Cooking/Recipes.lua"
+source_text = source_path.read_text()
 for block in re.split(r"(?=\s+recipe = AddRecipe\()", source_text):
     match = re.search(r"recipe = AddRecipe\((\d+), V\.(ORIG|TBC)", block)
     if match:

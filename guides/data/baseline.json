@@ -722,16 +722,9 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
-          16719,
-          1699,
-          17246,
-          18987,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -745,19 +738,14 @@
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
-          54232,
-          5482,
-          6286
+          54232
         ],
         "AddQuest": [],
         "AddMobDrop": []
@@ -771,7 +759,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 2539,
@@ -1719,16 +1709,9 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
-          16719,
-          1699,
-          17246,
-          18987,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -1742,19 +1725,14 @@
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
-          54232,
-          5482,
-          6286
+          54232
         ],
         "AddQuest": [],
         "AddMobDrop": []
@@ -1768,7 +1746,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 2542,
@@ -5123,19 +5103,12 @@
           8137
         ],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
           16277,
           16676,
-          16719,
-          1699,
-          17246,
-          18987,
           18988,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -5146,23 +5119,17 @@
           29631,
           3026,
           3067,
-          3087,
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
           54232,
-          5482,
-          6286,
           8306
         ],
         "AddQuest": [],
@@ -5177,7 +5144,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Crystal Boughman (NPC 3087); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 22480,
@@ -5296,19 +5265,12 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
           16277,
           16676,
-          16719,
-          1699,
-          17246,
-          18987,
           18988,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -5319,23 +5281,17 @@
           29631,
           3026,
           3067,
-          3087,
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
           54232,
-          5482,
-          6286,
           8306
         ],
         "AddQuest": [],
@@ -5350,7 +5306,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Crystal Boughman (NPC 3087); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 18242,
@@ -5422,16 +5380,9 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
-          16719,
-          1699,
-          17246,
-          18987,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -5445,19 +5396,14 @@
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
-          54232,
-          5482,
-          6286
+          54232
         ],
         "AddQuest": [],
         "AddMobDrop": []
@@ -5472,7 +5418,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 46688,
@@ -5502,16 +5450,9 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
-          16719,
-          1699,
-          17246,
-          18987,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -5525,19 +5466,14 @@
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
-          54232,
-          5482,
-          6286
+          54232
         ],
         "AddQuest": [],
         "AddMobDrop": []
@@ -5552,7 +5488,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 18243,
@@ -5581,19 +5519,12 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
           16277,
           16676,
-          16719,
-          1699,
-          17246,
-          18987,
           18988,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -5604,23 +5535,17 @@
           29631,
           3026,
           3067,
-          3087,
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
           54232,
-          5482,
-          6286,
           8306
         ],
         "AddQuest": [],
@@ -5635,7 +5560,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Crystal Boughman (NPC 3087); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 18244,
@@ -5662,19 +5589,12 @@
       "original": {
         "AddVendor": [],
         "AddTrainer": [
-          1355,
           1382,
-          1430,
           16253,
           16277,
           16676,
-          16719,
-          1699,
-          17246,
-          18987,
           18988,
           18993,
-          19185,
           19369,
           26905,
           26953,
@@ -5685,23 +5605,17 @@
           29631,
           3026,
           3067,
-          3087,
           33587,
           33619,
           3399,
-          4210,
           42288,
           42506,
           4552,
           45550,
           46709,
           47405,
-          4894,
           49789,
-          5159,
           54232,
-          5482,
-          6286,
           8306
         ],
         "AddQuest": [],
@@ -5716,7 +5630,9 @@
         "trainer": []
       },
       "issues": [],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: trainer Cook Ghilm (NPC 1355); trainer Tomas (NPC 1430); trainer Gremlock Pilsnor (NPC 1699); trainer Crystal Boughman (NPC 3087); trainer Alegorn (NPC 4210); trainer Craig Nollward (NPC 4894); trainer Daryl Riknussun (NPC 5159); trainer Stephen Ryback (NPC 5482); trainer Zarrin (NPC 6286); trainer Mumman (NPC 16719); trainer \"Cookie\" McWeaksauce (NPC 17246); trainer Gaston (NPC 18987); trainer Jack Trapper (NPC 19185)."
+      ]
     },
     {
       "spellID": 18247,
@@ -5819,7 +5735,6 @@
       ],
       "sources": {
         "AddVendor": [
-          2664,
           7947,
           8145
         ],
@@ -5832,7 +5747,6 @@
       "repVendors": [],
       "original": {
         "AddVendor": [
-          2664,
           7947,
           8145
         ],
@@ -5852,7 +5766,9 @@
       "issues": [
         "лишний/спорный vendor [2664]"
       ],
-      "notes": []
+      "notes": [
+        "Cooking Triage live check confirmed absent sources; removed from expected/source data: vendor Kelsey Yance (NPC 2664)."
+      ]
     },
     {
       "spellID": 22761,

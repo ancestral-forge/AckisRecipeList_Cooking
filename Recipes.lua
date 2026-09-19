@@ -232,8 +232,7 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(3737, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(3729, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 16253, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
         46709, 47405, 49789, 54232)
 
     -- Barbecued Buzzard Wing -- 4094
@@ -251,8 +250,7 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(5482, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(5472, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 16253, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
         46709, 47405, 49789, 54232)
 
     -- Scorpid Surprise -- 6413
@@ -277,8 +275,7 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(5485, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(5476, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 16253, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
         46709, 47405, 49789, 54232)
 
     -- Strider Stew -- 6416
@@ -534,8 +531,8 @@ function module:InitializeRecipes()
     recipe:SetCraftedItem(6887, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
     recipe:AddVendor(8137)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3087, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 8306,
-        16253, 16277, 16676, 16719, 17246, 18987, 18988, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 8306,
+        16253, 16277, 16676, 18988, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
         33587, 33619, 42288, 42506, 45550, 46709, 47405, 49789, 54232)
 
     -- Cooked Glossy Mightfish -- 18239
@@ -552,8 +549,8 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(13942, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(13928, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3087, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 8306,
-        16253, 16277, 16676, 16719, 17246, 18987, 18988, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 8306,
+        16253, 16277, 16676, 18988, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
         33587, 33619, 42288, 42506, 45550, 46709, 47405, 49789, 54232)
 
     -- Filet of Redgill -- 18241
@@ -578,8 +575,8 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(13945, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(13931, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3087, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 8306,
-        16253, 16277, 16676, 16719, 17246, 18987, 18988, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 8306,
+        16253, 16277, 16676, 18988, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
         33587, 33619, 42288, 42506, 45550, 46709, 47405, 49789, 54232)
 
     -- Poached Sunscale Salmon -- 18244
@@ -588,8 +585,8 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(13946, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(13932, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3087, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 8306,
-        16253, 16277, 16676, 16719, 17246, 18987, 18988, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 8306,
+        16253, 16277, 16676, 18988, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631,
         33587, 33619, 42288, 42506, 45550, 46709, 47405, 49789, 54232)
 
     -- Lobster Stew -- 18245
@@ -606,7 +603,7 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(13948, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(13934, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddVendor(2664, 7947, 8145)
+    recipe:AddVendor(7947, 8145)
 
     -- Baked Salmon -- 18247
     recipe = AddRecipe(18247, V.ORIG, Q.COMMON)
@@ -1163,8 +1160,7 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(35564, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(35563, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.DPS)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 16253, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
         46709, 47405, 49789, 54232)
 
     -- Juicy Bear Burger -- 46688
@@ -1173,8 +1169,7 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(35566, "BIND_ON_EQUIP")
     recipe:SetCraftedItem(35565, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE, F.HEALER, F.CASTER)
-    recipe:AddTrainer(1355, 1382, 1430, 1699, 2818, 3026, 3067, 3399, 4210, 4552, 4894, 5159, 5482, 6286, 16253, 16719,
-        17246, 18987, 18993, 19185, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
+    recipe:AddTrainer(1382, 2818, 3026, 3067, 3399, 4552, 16253, 18993, 19369, 26905, 26953, 26972, 26989, 28705, 29631, 33587, 33619, 42288, 42506, 45550,
         46709, 47405, 49789, 54232)
 
     -- Kungaloosh -- 53056
