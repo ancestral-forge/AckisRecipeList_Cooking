@@ -31,7 +31,7 @@ for id, npc in pairs(npcs) do
 end
 for id, quest in pairs(quests) do
     result.quests[id] = {name = quest[1], starts = quest[2] and quest[2][1], ends = quest[3] and quest[3][1],
-        races = quest[6], classes = quest[7]}
+        level = quest[4], requiredLevel = quest[5], races = quest[6], classes = quest[7]}
 end
 LibStub = function() return {} end
 GetBuildInfo = function() return "2.5.6", "69546", "", 20506 end

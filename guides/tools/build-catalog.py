@@ -40,6 +40,11 @@ winter_veil = {
     "deferred": "Feast of Winter Veil: сезонные продавцы, примерно 16 Dec - 2 Jan; вне события отсутствие не опровергает источник",
 }
 seasonal = {13420, 13429, 13432, 13433, 13435, 23010, 23012, 23064}
+daily_reward_quests = {11377, 11379, 11380, 11381, 11665, 11666, 11667, 11668, 11669}
+daily_reward_loot = {33844, 33857}
+daily_reward_custom = {"DAILY_COOKING_FISH", "DAILY_COOKING_MEAT", "DAILY_FISHING_SHATT"}
+daily_reward_note = "Требуется уровень 70; рецепт может выпасть из наградного контейнера ежедневного задания"
+daily_reward_deferred = daily_reward_note + ". Подтверждает только фактический loot рецепта из награды; пустая или другая награда ничего не опровергает"
 capitals_horde = {1454, 1456, 1458, 1954}
 nodes, cases, excluded = {}, {}, []
 
@@ -80,7 +85,7 @@ def node(npc_id):
     return result
 
 
-def add(recipe, kind, source_id, expected=True, confidence="uncertain", reason="Источник требует проверки", quest_id=None):
+def add(recipe, kind, source_id, expected=True, confidence="uncertain", reason="Источник требует проверки", quest_id=None, extra=None):
     npc = node(source_id) if kind in ("vendor", "trainer", "quest") else None
     if kind in ("vendor", "trainer", "quest") and not npc:
         excluded.append({"spellID": recipe["spellID"], "kind": kind, "sourceID": source_id, "questID": quest_id,
@@ -91,9 +96,13 @@ def add(recipe, kind, source_id, expected=True, confidence="uncertain", reason="
             "kind": kind, "sourceID": source_id, "expected": expected, "confidence": confidence, "reason": reason}
     if quest_id:
         case["questID"] = quest_id
+    if extra:
+        case.update(extra)
     if recipe["spellID"] == 9513:
         case["class"] = "ROGUE"
-    if npc and npc.get("deferred"):
+    if "deferred" in case:
+        pass
+    elif npc and npc.get("deferred"):
         case["deferred"] = npc["deferred"]
         if npc.get("event"):
             case["event"] = npc["event"]
@@ -133,9 +142,11 @@ for recipe in baseline["recipes"]:
                     continue
                 contacts = set(values(quest.get("starts")) + values(quest.get("ends")))
                 # These quests award random containers, not the recipe directly.
-                if source_id in (11377, 11379, 11380, 11381, 11665, 11666, 11667, 11668, 11669):
+                if source_id in daily_reward_quests:
+                    minimum = quest.get("requiredLevel") or quest.get("level") or 70
                     for npc_id in contacts:
-                        add(recipe, "container", npc_id, True, "uncertain", "Случайный рецепт в наградном контейнере; нужна добыча", source_id)
+                        add(recipe, "container", npc_id, True, "uncertain", daily_reward_note, source_id,
+                            {"requiresLevel": minimum, "reward": "daily", "deferred": daily_reward_deferred})
                         node(npc_id)
                 else:
                     for npc_id in contacts:
@@ -144,12 +155,22 @@ for recipe in baseline["recipes"]:
                 add(recipe, kind, source_id, present, confidence, reason)
     for method, kind in (("AddMobDrop", "drop"), ("AddWorldDrop", "world"), ("AddCustom", "custom")):
         for source_id in recipe["sources"][method]:
-            add(recipe, kind, source_id, True, "uncertain", "Источник без гарантированной проверки меню")
+            extra = None
+            reason = "Источник без гарантированной проверки меню"
+            if source_id in daily_reward_custom:
+                reason = daily_reward_note
+                extra = {"requiresLevel": 70, "reward": "daily", "deferred": daily_reward_deferred}
+            add(recipe, kind, source_id, True, "uncertain", reason, extra=extra)
             if kind == "drop":
                 node(source_id)
     # Container IDs from independent references, including sources omitted by ARL.
     for item_id in recipe["reference"]["loot"]:
-        add(recipe, "loot", item_id, True, "uncertain", "Ожидается в добыче предмета/контейнера; не гарантированное выпадение")
+        extra = None
+        reason = "Ожидается в добыче предмета/контейнера; не гарантированное выпадение"
+        if item_id in daily_reward_loot:
+            reason = daily_reward_note
+            extra = {"requiresLevel": 70, "reward": "daily", "deferred": daily_reward_deferred}
+        add(recipe, "loot", item_id, True, "uncertain", reason, extra=extra)
 
 # Keep only NPCs actually used by a case or an explicit container contact.
 used = {c["sourceID"] for c in cases.values() if c["kind"] in ("vendor", "trainer", "quest", "container", "drop")}

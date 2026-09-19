@@ -59,6 +59,12 @@ function TomTom:SetCrazyArrow(uid, distance, title)
     arrows[#arrows + 1] = uid
 end
 load(source .. "Catalog.lua", "Guidelime_CookingTriage", pack)
+local dailyCase
+for _, case in ipairs(pack.catalog) do
+    if case.id == "container:24393:11377:43707" then dailyCase = case end
+end
+assert(dailyCase and dailyCase.requiresLevel == 70 and dailyCase.reward == "daily"
+    and dailyCase.deferred:match("фактический loot"))
 load(source .. "SkillChecks.lua", "Guidelime_CookingTriage", pack)
 load(source .. "Seasons.lua", "Guidelime_CookingTriage", pack)
 local winterText = pack.SeasonText("WINTER_VEIL", os.time({year = 2026, month = 9, day = 19, hour = 12}))

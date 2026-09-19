@@ -82,6 +82,9 @@ local function createPanel()
             _G.GameTooltip:SetOwner(row, "ANCHOR_TOP")
             _G.GameTooltip:AddLine(row.case.name, 1, 1, 1)
             _G.GameTooltip:AddLine(row.case.reason, 1, 0.82, 0, true)
+            if row.case.requiresLevel then
+                _G.GameTooltip:AddLine("Требуется уровень " .. row.case.requiresLevel .. ".", 1, 0.65, 0.2, true)
+            end
             local stock = V.StockLabel(addon.GetRun(), row.case)
             if stock ~= "" then
                 _G.GameTooltip:AddLine(stock .. " — ограниченный запас. Если раскуплено, выбери «Позже» и дождись пополнения. Время пополнения неизвестно.", 1, 0.65, 0.2, true)
