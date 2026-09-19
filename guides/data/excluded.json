@@ -1,0 +1,3007 @@
+[
+  {
+    "spellID": 7751,
+    "kind": "vendor",
+    "sourceID": 3029,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7751,
+    "kind": "vendor",
+    "sourceID": 3550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7751,
+    "kind": "vendor",
+    "sourceID": 4574,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7751,
+    "kind": "vendor",
+    "sourceID": 5940,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7751,
+    "kind": "vendor",
+    "sourceID": 56069,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15935,
+    "kind": "vendor",
+    "sourceID": 2118,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13100,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13101,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13102,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13103,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13107,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13112,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13113,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13114,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13115,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43779,
+    "kind": "quest",
+    "sourceID": 13116,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 21143,
+    "kind": "vendor",
+    "sourceID": 13420,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21143,
+    "kind": "vendor",
+    "sourceID": 13429,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21143,
+    "kind": "vendor",
+    "sourceID": 13432,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21143,
+    "kind": "vendor",
+    "sourceID": 23012,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33276,
+    "kind": "vendor",
+    "sourceID": 16262,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7752,
+    "kind": "vendor",
+    "sourceID": 3550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7752,
+    "kind": "vendor",
+    "sourceID": 5942,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 37836,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6412,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2539,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6413,
+    "kind": "vendor",
+    "sourceID": 3881,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21144,
+    "kind": "vendor",
+    "sourceID": 13420,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21144,
+    "kind": "vendor",
+    "sourceID": 13429,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21144,
+    "kind": "vendor",
+    "sourceID": 13432,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21144,
+    "kind": "vendor",
+    "sourceID": 23012,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6414,
+    "kind": "vendor",
+    "sourceID": 3081,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 8607,
+    "kind": "vendor",
+    "sourceID": 3556,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6499,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2541,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6415,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7753,
+    "kind": "vendor",
+    "sourceID": 3027,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7753,
+    "kind": "vendor",
+    "sourceID": 4574,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7753,
+    "kind": "vendor",
+    "sourceID": 5748,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7753,
+    "kind": "vendor",
+    "sourceID": 5940,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7827,
+    "kind": "vendor",
+    "sourceID": 3333,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7827,
+    "kind": "vendor",
+    "sourceID": 4553,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7827,
+    "kind": "vendor",
+    "sourceID": 5748,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7827,
+    "kind": "vendor",
+    "sourceID": 5942,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6416,
+    "kind": "vendor",
+    "sourceID": 3482,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3371,
+    "kind": "quest",
+    "sourceID": 26860,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 28267,
+    "kind": "vendor",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2544,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2546,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 2397,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 3027,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 3400,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 4553,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 8307,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 12033,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 14738,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 16677,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 26868,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 46708,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 48060,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25704,
+    "kind": "vendor",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7755,
+    "kind": "vendor",
+    "sourceID": 2397,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7755,
+    "kind": "vendor",
+    "sourceID": 3027,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7755,
+    "kind": "vendor",
+    "sourceID": 3029,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7755,
+    "kind": "vendor",
+    "sourceID": 4553,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7755,
+    "kind": "vendor",
+    "sourceID": 56069,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13100,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13101,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13102,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13103,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13107,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13112,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13113,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13114,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13115,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 45695,
+    "kind": "quest",
+    "sourceID": 13116,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 6418,
+    "kind": "vendor",
+    "sourceID": 3482,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 2549,
+    "kind": "quest",
+    "sourceID": 26620,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 3377,
+    "kind": "quest",
+    "sourceID": 26623,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 6500,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3398,
+    "kind": "vendor",
+    "sourceID": 3489,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3376,
+    "kind": "vendor",
+    "sourceID": 1148,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3376,
+    "kind": "vendor",
+    "sourceID": 2821,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 24418,
+    "kind": "vendor",
+    "sourceID": 4879,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 4094,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15863,
+    "kind": "vendor",
+    "sourceID": 989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15863,
+    "kind": "vendor",
+    "sourceID": 4879,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15863,
+    "kind": "vendor",
+    "sourceID": 9636,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15856,
+    "kind": "vendor",
+    "sourceID": 8145,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15861,
+    "kind": "vendor",
+    "sourceID": 1148,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 20916,
+    "kind": "vendor",
+    "sourceID": 3333,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 20916,
+    "kind": "vendor",
+    "sourceID": 4574,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 20916,
+    "kind": "vendor",
+    "sourceID": 12033,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 20916,
+    "kind": "vendor",
+    "sourceID": 12962,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15855,
+    "kind": "vendor",
+    "sourceID": 1148,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15855,
+    "kind": "vendor",
+    "sourceID": 2821,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15855,
+    "kind": "vendor",
+    "sourceID": 4879,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7828,
+    "kind": "vendor",
+    "sourceID": 3333,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7828,
+    "kind": "vendor",
+    "sourceID": 4574,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7828,
+    "kind": "vendor",
+    "sourceID": 12033,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 7828,
+    "kind": "vendor",
+    "sourceID": 12962,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 2397,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 3027,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 3400,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 4553,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 8307,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 12033,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 14738,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 16677,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 26868,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 46708,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 48060,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 25954,
+    "kind": "vendor",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 3400,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15906,
+    "kind": "vendor",
+    "sourceID": 4879,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15910,
+    "kind": "vendor",
+    "sourceID": 9636,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 21175,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15933,
+    "kind": "vendor",
+    "sourceID": 2806,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15915,
+    "kind": "vendor",
+    "sourceID": 989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 15915,
+    "kind": "vendor",
+    "sourceID": 1149,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18238,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 22480,
+    "kind": "vendor",
+    "sourceID": 40589,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18240,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "vendor",
+    "sourceID": 2806,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46684,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "vendor",
+    "sourceID": 2806,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 46688,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18243,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 1382,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 2818,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 3026,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 3067,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 3399,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 4552,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 8306,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 16253,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 16277,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 16676,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 18988,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 26905,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 26953,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 26972,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 26989,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 28705,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 29631,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 33587,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 33619,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 42288,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 42506,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 45550,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 46709,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 47405,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 49789,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18244,
+    "kind": "trainer",
+    "sourceID": 54232,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18247,
+    "kind": "vendor",
+    "sourceID": 8145,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18245,
+    "kind": "vendor",
+    "sourceID": 8145,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 18246,
+    "kind": "vendor",
+    "sourceID": 8145,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33290,
+    "kind": "vendor",
+    "sourceID": 18015,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33291,
+    "kind": "vendor",
+    "sourceID": 18011,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33284,
+    "kind": "vendor",
+    "sourceID": 16585,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13100,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13101,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13102,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13103,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13107,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13112,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13113,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13114,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13115,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 43758,
+    "kind": "quest",
+    "sourceID": 13116,
+    "reason": "No TBC quest entity"
+  },
+  {
+    "spellID": 33286,
+    "kind": "vendor",
+    "sourceID": 18957,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33293,
+    "kind": "vendor",
+    "sourceID": 20097,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33294,
+    "kind": "vendor",
+    "sourceID": 20097,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33295,
+    "kind": "vendor",
+    "sourceID": 18960,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 45022,
+    "kind": "vendor",
+    "sourceID": 13420,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33287,
+    "kind": "vendor",
+    "sourceID": 20097,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33289,
+    "kind": "vendor",
+    "sourceID": 20097,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33288,
+    "kind": "vendor",
+    "sourceID": 18957,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33288,
+    "kind": "vendor",
+    "sourceID": 20097,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  },
+  {
+    "spellID": 33296,
+    "kind": "vendor",
+    "sourceID": 18960,
+    "questID": null,
+    "reason": "Horde, hostile capital, or no TBC NPC entity"
+  }
+]

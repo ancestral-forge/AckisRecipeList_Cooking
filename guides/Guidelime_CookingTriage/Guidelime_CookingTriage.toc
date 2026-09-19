@@ -1,0 +1,16 @@
+## Interface: 20506
+## Title: Guidelime: Cooking Triage Verification
+## Notes: Alliance and neutral Cooking verification route for TBC Anniversary, with TomTom Crazy Arrow.
+## Author: Ancestral Forge
+## Version: 2.0.1
+## Dependencies: Guidelime, TomTom
+## SavedVariablesPerCharacter: CookingTriageDB
+
+Catalog.lua
+SkillChecks.lua
+Route.lua
+Verification.lua
+Recorder.lua
+Review.lua
+TomTom.lua
+Guides.lua

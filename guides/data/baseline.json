@@ -1,0 +1,7209 @@
+{
+  "provenance": "Cooking audit 2026-09-07; triage 2026-09-08. Source predictions, not live verification. Original = audit installed ARL snapshot.",
+  "recipes": [
+    {
+      "spellID": 2538,
+      "name": "Charred Wolf Meat",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE",
+        "MISC1"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DEFAULT_RECIPE"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2540,
+      "name": "Roasted Boar Meat",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE",
+        "MISC1"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DEFAULT_RECIPE"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7751,
+      "name": "Brilliant Smallfish",
+      "items": [
+        6325
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1684,
+          3029,
+          3550,
+          4265,
+          4574,
+          5494,
+          56069,
+          5940,
+          66,
+          8508
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1684,
+          3029,
+          3550,
+          4265,
+          4574,
+          5494,
+          56069,
+          5940,
+          66
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          66,
+          1684,
+          3029,
+          3550,
+          4265,
+          4574,
+          5494,
+          5940,
+          8508
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "vendor ID без сущности TBC [56069]"
+      ]
+    },
+    {
+      "spellID": 15935,
+      "name": "Crispy Bat Wing",
+      "items": [
+        12226
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2118
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2118
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2118
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 43779,
+      "name": "Delicious Chocolate Cake",
+      "items": [
+        33925
+      ],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_COOKING_FISH",
+          "DAILY_COOKING_MEAT"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381,
+          13100,
+          13101,
+          13102,
+          13103,
+          13107,
+          13112,
+          13113,
+          13114,
+          13115,
+          13116
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33844,
+          33857
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 21143,
+      "name": "Gingerbread Cookie",
+      "items": [
+        17200
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          13420,
+          13429,
+          13432,
+          13433,
+          13435,
+          23010,
+          23012,
+          23064
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          13420,
+          13429,
+          13432,
+          13433,
+          13435,
+          23010,
+          23012,
+          23064
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          13420,
+          13429,
+          13432,
+          13433,
+          13435,
+          23010,
+          23012,
+          23064
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 8604,
+      "name": "Herb Baked Egg",
+      "items": [
+        6891
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE",
+        "MISC1"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DEFAULT_RECIPE"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "Default recipe; не добавлять неиспользуемый предмет 6891"
+      ]
+    },
+    {
+      "spellID": 33276,
+      "name": "Lynx Steak",
+      "items": [
+        27685
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          16262
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          16262
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          16262
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33277,
+      "name": "Roasted Moongraze Tenderloin",
+      "items": [
+        27686
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          9454
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          9454
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          9454
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7752,
+      "name": "Slitherskin Mackerel",
+      "items": [
+        6326
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          10118,
+          3550,
+          4305,
+          5162,
+          5942
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          10118,
+          3550,
+          4305,
+          5162,
+          5942
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3550,
+          4305,
+          5162,
+          5942,
+          10118
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 37836,
+      "name": "Spice Bread",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [
+        "цветовые пороги [1, 30, 35, 38] → [1, 30, 35, 40]"
+      ],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 6412,
+      "name": "Kaldorei Spider Kabob",
+      "items": [
+        5482
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          4161
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16719,
+          1699,
+          17246,
+          18987,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          4161
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2539,
+      "name": "Spiced Wolf Meat",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 6413,
+      "name": "Scorpid Surprise",
+      "items": [
+        5483
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3881
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          3881
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3881
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2795,
+      "name": "Beer Basted Boar Ribs",
+      "items": [
+        2889
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          384
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          384
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          384
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [
+        "спорный orange-порог: ARL 10, CraftLib 25; recipe item требует 10"
+      ],
+      "notes": [
+        "Требование Cooking 10 подтверждается текущим Wowhead TBC item 2889 и CMaNGOS; orange 25 из CraftLib не считать готовым исправлением"
+      ]
+    },
+    {
+      "spellID": 21144,
+      "name": "Egg Nog",
+      "items": [
+        17201
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          13420,
+          13429,
+          13432,
+          13433,
+          13435,
+          23010,
+          23012,
+          23064
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          13420,
+          13429,
+          13432,
+          13433,
+          13435,
+          23010,
+          23012,
+          23064
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          13420,
+          13429,
+          13432,
+          13433,
+          13435,
+          23010,
+          23012,
+          23064
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6414,
+      "name": "Roasted Kodo Meat",
+      "items": [
+        5484
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3081
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          3081
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3081
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 8607,
+      "name": "Smoked Bear Meat",
+      "items": [
+        6892
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1465,
+          3556
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1465,
+          3556
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          1465,
+          3556
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33278,
+      "name": "Bat Bites",
+      "items": [
+        27687
+      ],
+      "phase": 1,
+      "factions": [
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          16253
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          16253
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          16253
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6499,
+      "name": "Boiled Clams",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 2541,
+      "name": "Coyote Steak",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 6415,
+      "name": "Fillet of Frenzy",
+      "items": [
+        5485
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          4200
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16719,
+          1699,
+          17246,
+          18987,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          4200
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2542,
+      "name": "Goretusk Liver Pie",
+      "items": [
+        2697
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          22
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          22
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7754,
+      "name": "Loch Frenzy Delight",
+      "items": [
+        6329
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1684
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1684
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          1684
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7753,
+      "name": "Longjaw Mud Snapper",
+      "items": [
+        6328
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1684,
+          3027,
+          4265,
+          4574,
+          5162,
+          5748,
+          5940,
+          66
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1684,
+          3027,
+          4265,
+          4574,
+          5162,
+          5748,
+          5940,
+          66
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          66,
+          1684,
+          3027,
+          4265,
+          4574,
+          5162,
+          5748,
+          5940
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7827,
+      "name": "Rainbow Fin Albacore",
+      "items": [
+        6368
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          10118,
+          3178,
+          3333,
+          3497,
+          4305,
+          4307,
+          4553,
+          5494,
+          5748,
+          5942
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          10118,
+          3178,
+          3333,
+          3497,
+          4305,
+          4553,
+          5494,
+          5748,
+          5942
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3178,
+          3333,
+          3497,
+          4305,
+          4307,
+          4553,
+          5494,
+          5748,
+          5942,
+          10118
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6416,
+      "name": "Strider Stew",
+      "items": [
+        5486
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3482
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          2178
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          3482
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3482
+        ],
+        "quest": [
+          2178
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3371,
+      "name": "Blood Sausage",
+      "items": [
+        3679
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          418
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          26860
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          418
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 28267,
+      "name": "Crunchy Spider Surprise",
+      "items": [
+        22647
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          16253,
+          18427
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          9171
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          16253,
+          18427
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          9171
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          16253,
+          18427
+        ],
+        "quest": [
+          9171
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 9513,
+      "name": "Thistle Tea",
+      "items": [
+        7678,
+        18160
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE",
+        "ROGUE"
+      ],
+      "sources": {
+        "AddVendor": [
+          6779
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          2359,
+          2478
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          6779
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          6779
+        ],
+        "quest": [
+          2359,
+          2478
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2544,
+      "name": "Crab Cake",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 2543,
+      "name": "Westfall Stew",
+      "items": [
+        728
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          38
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          38
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3370,
+      "name": "Crocolisk Steak",
+      "items": [
+        3678
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          385
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          385
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2546,
+      "name": "Dry Pork Ribs",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 25704,
+      "name": "Smoked Sagefish",
+      "items": [
+        21099
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          12033,
+          14738,
+          16253,
+          16677,
+          16718,
+          17246,
+          19195,
+          2381,
+          2397,
+          2664,
+          26868,
+          3027,
+          3085,
+          3400,
+          4223,
+          4265,
+          4553,
+          46708,
+          48060,
+          5160,
+          54232,
+          5483,
+          8307
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          12033,
+          14738,
+          16253,
+          16677,
+          16718,
+          17246,
+          19195,
+          2397,
+          2664,
+          26868,
+          3027,
+          3085,
+          3400,
+          4223,
+          4265,
+          4553,
+          46708,
+          48060,
+          4894,
+          5160,
+          54232,
+          5483,
+          8307
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2381,
+          2397,
+          2664,
+          3027,
+          3085,
+          3400,
+          4223,
+          4265,
+          4553,
+          5160,
+          5483,
+          8307,
+          12033,
+          14738,
+          16253,
+          16677,
+          16718,
+          17246,
+          19195
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "vendor ID без сущности TBC [26868, 46708, 48060, 54232]"
+      ]
+    },
+    {
+      "spellID": 2545,
+      "name": "Cooked Crab Claw",
+      "items": [
+        2698
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [
+          "DARKSHORE",
+          "WESTFALL"
+        ],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 8238,
+      "name": "Savory Deviate Delight",
+      "items": [
+        6661
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [
+          "THE_BARRENS"
+        ],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6501,
+      "name": "Clam Chowder",
+      "items": [
+        5528
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          4305,
+          4307
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          4305
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          4305,
+          4307
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6417,
+      "name": "Dig Rat Stew",
+      "items": [
+        5487
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          862
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [
+          3444
+        ]
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          862
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3372,
+      "name": "Murloc Fin Soup",
+      "items": [
+        3680
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          127
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          127
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7755,
+      "name": "Bristle Whisker Catfish",
+      "items": [
+        6330
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2383,
+          2397,
+          3027,
+          3029,
+          3497,
+          4553,
+          5494,
+          56069
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2397,
+          3027,
+          3029,
+          3497,
+          4553,
+          5494,
+          56069
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2383,
+          2397,
+          3027,
+          3029,
+          3497,
+          4553,
+          5494
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "vendor ID без сущности TBC [56069]"
+      ]
+    },
+    {
+      "spellID": 45695,
+      "name": "Captain Rumsey's Lager",
+      "items": [
+        34834
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11665,
+          11666,
+          11667,
+          11668,
+          11669
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_FISHING_SHATT"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11666,
+          11667,
+          11668,
+          11669,
+          13100,
+          13101,
+          13102,
+          13103,
+          13107,
+          13112,
+          13113,
+          13114,
+          13115,
+          13116
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33844,
+          33857
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "Questie/CMaNGOS/Wowhead guide также указывают cooking crates 33844/33857; историческое расширение loot table требует отдельной проверки"
+      ]
+    },
+    {
+      "spellID": 6418,
+      "name": "Crispy Lizard Tail",
+      "items": [
+        5488
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3482
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          3482
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3482
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2547,
+      "name": "Redridge Goulash",
+      "items": [
+        2699
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          92
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          92
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2549,
+      "name": "Seasoned Wolf Kabob",
+      "items": [
+        2701
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          90
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          26620
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          90
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3397,
+      "name": "Big Bear Steak",
+      "items": [
+        3734
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3960
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          498
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3960,
+          12246
+        ],
+        "quest": [
+          498
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3377,
+      "name": "Gooey Spider Cake",
+      "items": [
+        3683
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          93
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          26623
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          93
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6419,
+      "name": "Lean Venison",
+      "items": [
+        5489
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3960
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3960,
+          12245
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 2548,
+      "name": "Succulent Pork Ribs",
+      "items": [
+        2700
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [
+          "LOCH_MODAN",
+          "REDRIDGE_MOUNTAINS"
+        ],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3373,
+      "name": "Crocolisk Gumbo",
+      "items": [
+        3681
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          471
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340
+        ],
+        "quest": [
+          471
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 6500,
+      "name": "Goblin Deviled Clams",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 3398,
+      "name": "Hot Lion Chops",
+      "items": [
+        3735
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          3489
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          501
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          3489
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          3489,
+          12245
+        ],
+        "quest": [
+          501
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15853,
+      "name": "Lean Wolf Steak",
+      "items": [
+        12227
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          12246
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3376,
+      "name": "Curiously Tasty Omelet",
+      "items": [
+        3682
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1148,
+          2821,
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          296
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1148,
+          2821,
+          340
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          340,
+          1148,
+          2821
+        ],
+        "quest": [
+          296
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 24418,
+      "name": "Heavy Crocolisk Stew",
+      "items": [
+        20075
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          4879
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          4879
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          4879
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 3399,
+      "name": "Tasty Lion Steak",
+      "items": [
+        3736
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          564
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          564
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          564
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 4094,
+      "name": "Barbecued Buzzard Wing",
+      "items": [
+        4609
+      ],
+      "phase": null,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2814
+        ],
+        "AddTrainer": [
+          2818
+        ],
+        "AddQuest": [
+          703
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2814
+        ],
+        "AddTrainer": [
+          2818
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2814,
+          12246
+        ],
+        "quest": [
+          703
+        ],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 2818,
+            "name": "Slagg",
+            "faction": "Neutral"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15863,
+      "name": "Carrion Surprise",
+      "items": [
+        12232
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          4879,
+          9636,
+          989
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          4879,
+          9636,
+          989
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          989,
+          4879,
+          9636,
+          12245
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7213,
+      "name": "Giant Clam Scorcho",
+      "items": [
+        6039
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2664
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 13028,
+      "name": "Goldthorn Tea",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE",
+        "INSTANCE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          8696
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          8696
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "Henry Stern обучает через gossip; Trainer здесь допустимое обобщение"
+      ]
+    },
+    {
+      "spellID": 15856,
+      "name": "Hot Wolf Ribs",
+      "items": [
+        12229
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          7947,
+          8145,
+          12246
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15861,
+      "name": "Jungle Stew",
+      "items": [
+        12231
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1148,
+          734
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1148,
+          734
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          734,
+          1148,
+          12245
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 20916,
+      "name": "Mithril Headed Trout",
+      "items": [
+        17062
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          12033,
+          12962,
+          2383,
+          2664,
+          3178,
+          3333,
+          4307,
+          4574,
+          5162
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          12033,
+          12962,
+          2664,
+          3178,
+          3333,
+          4574,
+          5162
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2383,
+          2664,
+          3178,
+          3333,
+          4307,
+          4574,
+          5162,
+          12033,
+          12962
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15865,
+      "name": "Mystery Stew",
+      "items": [
+        12233
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          4897,
+          8150
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          4897,
+          8150
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          4897,
+          8150,
+          12246
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15855,
+      "name": "Roast Raptor",
+      "items": [
+        12228
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1148,
+          2810,
+          2821,
+          4879,
+          4897,
+          734
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1148,
+          2810,
+          2821,
+          4879,
+          4897,
+          734
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          734,
+          1148,
+          2810,
+          2821,
+          4879,
+          4897,
+          12245
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 7828,
+      "name": "Rockscale Cod",
+      "items": [
+        6369
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          12033,
+          12962,
+          2383,
+          2664,
+          3178,
+          3333,
+          4307,
+          4574,
+          5162
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          12033,
+          12962,
+          2664,
+          3178,
+          3333,
+          4574,
+          5162
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2383,
+          2664,
+          3178,
+          3333,
+          4307,
+          4574,
+          5162,
+          12033,
+          12962
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 25954,
+      "name": "Sagefish Delight",
+      "items": [
+        21219
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          12033,
+          14738,
+          16253,
+          16677,
+          16718,
+          17246,
+          19195,
+          2381,
+          2397,
+          2664,
+          26868,
+          3027,
+          3085,
+          3400,
+          4223,
+          4265,
+          4553,
+          46708,
+          48060,
+          5160,
+          54232,
+          5483,
+          8307
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          12033,
+          14738,
+          16253,
+          16677,
+          16718,
+          17246,
+          19195,
+          2397,
+          2664,
+          26868,
+          3027,
+          3085,
+          3400,
+          4223,
+          4265,
+          4553,
+          46708,
+          48060,
+          4894,
+          5160,
+          54232,
+          5483,
+          8307
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2381,
+          2397,
+          2664,
+          3027,
+          3085,
+          3400,
+          4223,
+          4265,
+          4553,
+          5160,
+          5483,
+          8307,
+          12033,
+          14738,
+          16253,
+          16677,
+          16718,
+          17246,
+          19195
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "vendor ID без сущности TBC [26868, 46708, 48060, 54232]"
+      ]
+    },
+    {
+      "spellID": 3400,
+      "name": "Soothing Turtle Bisque",
+      "items": [
+        3737
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          555,
+          7321
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          555,
+          7321
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          555,
+          7321
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15906,
+      "name": "Dragonbreath Chili",
+      "items": [
+        12239
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          4879,
+          4897
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          4879,
+          4897
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          4879,
+          4897,
+          12246
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15910,
+      "name": "Heavy Kodo Stew",
+      "items": [
+        12240
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          8150,
+          9636
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          8150,
+          9636
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          8150,
+          9636,
+          12245
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 21175,
+      "name": "Spider Sausage",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          3026,
+          3067,
+          3087,
+          3399,
+          4210,
+          4552,
+          5159,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 17246,
+            "name": "\"Cookie\" McWeaksauce",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 4210,
+            "name": "Alegorn",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3026,
+            "name": "Aska Mistrunner",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18988,
+            "name": "Baxter",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 19369,
+            "name": "Celie Steelwing",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1355,
+            "name": "Cook Ghilm",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3087,
+            "name": "Crystal Boughman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 5159,
+            "name": "Daryl Riknussun",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 8306,
+            "name": "Duhng",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 4552,
+            "name": "Eunice Burch",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 18987,
+            "name": "Gaston",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 1699,
+            "name": "Gremlock Pilsnor",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 19185,
+            "name": "Jack Trapper",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 16253,
+            "name": "Master Chef Mouldier",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1382,
+            "name": "Mudduk",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16719,
+            "name": "Mumman",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 18993,
+            "name": "Naka",
+            "faction": "Neutral"
+          },
+          {
+            "npcId": 3067,
+            "name": "Pyall Silentstride",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 16277,
+            "name": "Quarelestra",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 5482,
+            "name": "Stephen Ryback",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 16676,
+            "name": "Sylann",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 1430,
+            "name": "Tomas",
+            "faction": "Alliance"
+          },
+          {
+            "npcId": 3399,
+            "name": "Zamja",
+            "faction": "Horde"
+          },
+          {
+            "npcId": 6286,
+            "name": "Zarrin",
+            "faction": "Alliance"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "trainer отсутствует относительно Wowhead [19186]"
+      ]
+    },
+    {
+      "spellID": 18239,
+      "name": "Cooked Glossy Mightfish",
+      "items": [
+        13940
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2664
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18241,
+      "name": "Filet of Redgill",
+      "items": [
+        13941
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2664
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15933,
+      "name": "Monster Omelet",
+      "items": [
+        16110
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          11187,
+          2803,
+          2806
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          11187,
+          2803
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2803,
+          2806,
+          11187
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 15915,
+      "name": "Spiced Chili Crab",
+      "items": [
+        16111
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          1149,
+          4305,
+          989
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          1149,
+          4305,
+          989
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          989,
+          1149,
+          4305
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18238,
+      "name": "Spotted Yellowtail",
+      "items": [
+        13939
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          8137
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          8137
+        ],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          3087,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          8137
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 22480,
+      "name": "Tender Wolf Steak",
+      "items": [
+        18046
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          40589,
+          4782,
+          7733,
+          8125
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          40589,
+          4782,
+          7733
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          4782,
+          7733,
+          8125
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "vendor ID без сущности TBC [40589]"
+      ]
+    },
+    {
+      "spellID": 20626,
+      "name": "Undermine Clam Chowder",
+      "items": [
+        16767
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          8139
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "vendor ID без сущности TBC [48060, 54232]"
+      ]
+    },
+    {
+      "spellID": 18240,
+      "name": "Grilled Squid",
+      "items": [
+        13942
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "DPS",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          8137
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          3087,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          8137
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18242,
+      "name": "Hot Smoked Bass",
+      "items": [
+        13943
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2664
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2664
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 46684,
+      "name": "Charred Bear Kabobs",
+      "items": [
+        35564
+      ],
+      "phase": 5,
+      "factions": [
+        "ALLIANCE",
+        "DPS",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2803,
+          2806
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16719,
+          1699,
+          17246,
+          18987,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2803,
+          2806
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 46688,
+      "name": "Juicy Bear Burger",
+      "items": [
+        35566
+      ],
+      "phase": 5,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2803,
+          2806
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16719,
+          1699,
+          17246,
+          18987,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          2803,
+          2806
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18243,
+      "name": "Nightfin Soup",
+      "items": [
+        13945
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          8137
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          3087,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          8137
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18244,
+      "name": "Poached Sunscale Salmon",
+      "items": [
+        13946
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          8137
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          1355,
+          1382,
+          1430,
+          16253,
+          16277,
+          16676,
+          16719,
+          1699,
+          17246,
+          18987,
+          18988,
+          18993,
+          19185,
+          19369,
+          26905,
+          26953,
+          26972,
+          26989,
+          2818,
+          28705,
+          29631,
+          3026,
+          3067,
+          3087,
+          33587,
+          33619,
+          3399,
+          4210,
+          42288,
+          42506,
+          4552,
+          45550,
+          46709,
+          47405,
+          4894,
+          49789,
+          5159,
+          54232,
+          5482,
+          6286,
+          8306
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          8137
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18247,
+      "name": "Baked Salmon",
+      "items": [
+        13949
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          7947,
+          8145
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18245,
+      "name": "Lobster Stew",
+      "items": [
+        13947
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          7947,
+          8145
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 18246,
+      "name": "Mightfish Steak",
+      "items": [
+        13948
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          2664,
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          2664,
+          7947,
+          8145
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          7947,
+          8145
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [
+        "лишний/спорный vendor [2664]"
+      ],
+      "notes": []
+    },
+    {
+      "spellID": 22761,
+      "name": "Runn Tum Tuber Surprise",
+      "items": [
+        18267
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE",
+        "INSTANCE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [
+          14354
+        ],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [
+          14354
+        ]
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 24801,
+      "name": "Smoked Desert Dumplings",
+      "items": [],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "DPS",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          8313
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          8313
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33290,
+      "name": "Blackened Trout",
+      "items": [
+        27694
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18015,
+          20028
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18015,
+          20028
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18015,
+          20028
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 43761,
+      "name": "Broiled Bloodfin",
+      "items": [
+        33869
+      ],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_COOKING_FISH"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33844
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33279,
+      "name": "Buzzard Bites",
+      "items": [
+        27684
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          9356
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          9356
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          9356
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 36210,
+      "name": "Clam Bar",
+      "items": [
+        30156
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18382
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18382
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18382
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "Mycah: neutral для торговли, Glowcaps; репутация не нужна для изучения переданного рецепта"
+      ]
+    },
+    {
+      "spellID": 25659,
+      "name": "Dirge's Kickin' Chimaerok Chops",
+      "items": [
+        21025
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          8586
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [
+          8586
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33291,
+      "name": "Feltail Delight",
+      "items": [
+        27695
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18011,
+          20028
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18011,
+          20028
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18011,
+          20028
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 43772,
+      "name": "Kibler's Bits",
+      "items": [
+        33875
+      ],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_COOKING_FISH",
+          "DAILY_COOKING_MEAT"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33844,
+          33857
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33284,
+      "name": "Ravager Dog",
+      "items": [
+        27688
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "DPS",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          16585,
+          16826
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          16585,
+          16826
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          16585,
+          16826
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 43758,
+      "name": "Stormchops",
+      "items": [
+        33871
+      ],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_COOKING_FISH",
+          "DAILY_COOKING_MEAT"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381,
+          13100,
+          13101,
+          13102,
+          13103,
+          13107,
+          13112,
+          13113,
+          13114,
+          13115,
+          13116
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33844,
+          33857
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33292,
+      "name": "Blackened Sporefish",
+      "items": [
+        27696
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18911
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18911
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18911
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33285,
+      "name": "Sporeling Snack",
+      "items": [
+        27689
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18382
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18382
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "Mycah: neutral для торговли, Glowcaps; репутация не нужна для изучения переданного рецепта"
+      ]
+    },
+    {
+      "spellID": 33286,
+      "name": "Blackened Basilisk",
+      "items": [
+        27690
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18957,
+          19038
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18957,
+          19038
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18957,
+          19038
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33293,
+      "name": "Grilled Mudfish",
+      "items": [
+        27697
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "DPS",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          20096,
+          20097
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33294,
+      "name": "Poached Bluefish",
+      "items": [
+        27698
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          20096,
+          20097
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33295,
+      "name": "Golden Fish Sticks",
+      "items": [
+        27699
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18960,
+          19296
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18960,
+          19296
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18960,
+          19296
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 45022,
+      "name": "Hot Apple Cider",
+      "items": [
+        34413
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          13420,
+          13433
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          13420,
+          13433
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          13420,
+          13433
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33287,
+      "name": "Roasted Clefthoof",
+      "items": [
+        27691
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "DPS",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          20096,
+          20097
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 43707,
+      "name": "Skullfish Soup",
+      "items": [
+        33870
+      ],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "DPS",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_COOKING_FISH"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33844
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 43765,
+      "name": "Spicy Hot Talbuk",
+      "items": [
+        33873
+      ],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "DPS",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": [
+          "DAILY_COOKING_MEAT"
+        ]
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [],
+        "AddQuest": [
+          11377,
+          11379,
+          11380,
+          11381
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [
+          33857
+        ],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33289,
+      "name": "Talbuk Steak",
+      "items": [
+        27693
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          20096,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          20096,
+          20097
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 33288,
+      "name": "Warp Burger",
+      "items": [
+        27692
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "DPS",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18957,
+          19038,
+          20097
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18957,
+          19038
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18957,
+          19038,
+          20097
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": [
+        "Cooking Triage live check: Uriku (NPC 20096) did not offer Warp Burger in the full vendor menu; the report also notes no matching Wowhead source. Removed from the expected vendor sources."
+      ]
+    },
+    {
+      "spellID": 38868,
+      "name": "Crunchy Serpent",
+      "items": [
+        31674
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          21113
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          10860
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          21113
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          10860
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          20916,
+          21113
+        ],
+        "quest": [
+          10860
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 38867,
+      "name": "Mok'Nathal Shortribs",
+      "items": [
+        31675
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          21113
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          10860
+        ],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          21113
+        ],
+        "AddTrainer": [],
+        "AddQuest": [
+          10860
+        ],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          20916,
+          21113
+        ],
+        "quest": [
+          10860
+        ],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 42296,
+      "name": "Stewed Trout",
+      "items": [],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          19186
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          19186
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": [
+        "минимум 320 по CMaNGOS и историческому свидетельству; Wowhead guide 325, CraftLib learnedAt 335; живой порог Anniversary не подтверждён"
+      ]
+    },
+    {
+      "spellID": 33296,
+      "name": "Spicy Crawdad",
+      "items": [
+        27700
+      ],
+      "phase": 1,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [
+          18960,
+          19296
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [
+          18960,
+          19296
+        ],
+        "AddTrainer": [],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [
+          18960,
+          19296
+        ],
+        "quest": [],
+        "loot": [],
+        "trainer": []
+      },
+      "issues": [
+        "цветовые пороги [350, 370, 375, 380] → [350, 370, 380, 390]"
+      ],
+      "notes": []
+    },
+    {
+      "spellID": 42302,
+      "name": "Fisherman's Feast",
+      "items": [],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "CASTER",
+        "HEALER",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          19186
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          19186
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": []
+    },
+    {
+      "spellID": 42305,
+      "name": "Hot Buttered Trout",
+      "items": [],
+      "phase": 4,
+      "factions": [
+        "ALLIANCE",
+        "HORDE"
+      ],
+      "sources": {
+        "AddVendor": [],
+        "AddTrainer": [
+          19186
+        ],
+        "AddQuest": [],
+        "AddMobDrop": [],
+        "AddWorldDrop": [],
+        "AddCustom": []
+      },
+      "repVendors": [],
+      "original": {
+        "AddVendor": [],
+        "AddTrainer": [
+          19186
+        ],
+        "AddQuest": [],
+        "AddMobDrop": []
+      },
+      "reference": {
+        "vendor": [],
+        "quest": [],
+        "loot": [],
+        "trainer": [
+          {
+            "npcId": 19186,
+            "name": "Kylene",
+            "faction": "Neutral"
+          }
+        ]
+      },
+      "issues": [],
+      "notes": []
+    }
+  ]
+}
