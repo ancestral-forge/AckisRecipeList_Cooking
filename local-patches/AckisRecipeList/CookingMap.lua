@@ -10,10 +10,12 @@ local labels = russian and {
     title = "Кулинария", reputation = "Нужна репутация: %s — %s",
     page = "%d–%d из %d. Колесо мыши — остальные рецепты.",
     route = "ЛКМ — маршрут TomTom", on = "Метки готовки включены.", off = "Метки готовки выключены.",
+    winterVeil = "Feast of Winter Veil: примерно %s - %s. Вне события отсутствие не опровергает источник.",
 } or {
     title = "Cooking", reputation = "Requires reputation: %s — %s",
     page = "%d–%d of %d. Mouse wheel to scroll recipes.",
     route = "Left click for a TomTom waypoint", on = "Cooking pins enabled.", off = "Cooking pins disabled.",
+    winterVeil = "Feast of Winter Veil: roughly %s - %s. Absence outside the event does not disprove the source.",
 }
 local textures = {
     [types.Vendor] = "Interface\\GossipFrame\\VendorGossipIcon",
@@ -26,6 +28,29 @@ local owner, pool = {}, {}
 local frame = _G.CreateFrame("Frame")
 local queued, readingSkills = false, false
 local PAGE_SIZE = 16
+local winterVeilVendors = {[13420]=true, [13429]=true, [13432]=true, [13433]=true, [13435]=true, [23010]=true, [23012]=true, [23064]=true}
+local winterVeilRecipes = {[21143]=true, [21144]=true, [45022]=true}
+
+local function WinterVeilWindow()
+    local now = (_G.time or os.time)()
+    local today = (_G.date or os.date)("*t", now)
+    local startYear = today.year
+    if today.month == 1 then startYear = today.year - 1 end
+    local startTime = (_G.time or os.time)({year = startYear, month = 12, day = 16, hour = 0})
+    local endTime = (_G.time or os.time)({year = startYear + 1, month = 1, day = 2, hour = 23, min = 59})
+    if now > endTime then
+        startYear = startYear + 1
+        startTime = (_G.time or os.time)({year = startYear, month = 12, day = 16, hour = 0})
+        endTime = (_G.time or os.time)({year = startYear + 1, month = 1, day = 2, hour = 23, min = 59})
+    end
+    return (_G.date or os.date)("%Y-%m-%d", startTime), (_G.date or os.date)("%Y-%m-%d", endTime)
+end
+
+local function SeasonalNote(group, spellID)
+    if group.acquireType == types.Vendor and winterVeilVendors[group.sourceID] and winterVeilRecipes[spellID] then
+        return labels.winterVeil:format(WinterVeilWindow())
+    end
+end
 
 -- The core's zone table uses Retail IDs; use Classic/TBC UiMapIDs before Cata.
 -- Resolve by ARL's zone label, not a localized or fallback English zone name.
@@ -158,7 +183,7 @@ local function CollectSources(profession, rank)
             group = {
                 name = entity.name or private.quest_names[sourceID] or tostring(sourceID),
                 acquireType = acquireType, mapID = mapID, x = x, y = y,
-                rank = rank, entries = {}, difficulty = "impossible",
+                rank = rank, sourceID = sourceID, entries = {}, difficulty = "impossible",
             }
             groups[key] = group
         end
@@ -237,6 +262,8 @@ local function ShowTooltip(pin)
         local recipe, color = entry.recipe, colors[entry.difficulty]
         tooltip:AddDoubleLine(recipe:LocalizedName(), ("[%d]"):format(recipe.skill_level),
             color.r, color.g, color.b, color.r, color.g, color.b)
+        local seasonal = SeasonalNote(group, recipe:SpellID())
+        if seasonal then tooltip:AddLine(seasonal, 0.8, 0.8, 0.8, true) end
         if entry.blocked then tooltip:AddLine(entry.blocked, 1, 0, 0, true) end
     end
     if #group.recipes > PAGE_SIZE then

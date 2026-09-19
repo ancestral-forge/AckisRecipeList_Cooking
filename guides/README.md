@@ -94,6 +94,10 @@ Pusillin — фактической добычи в Dire Maul East; для ни�
 стоянки, у инстансов — входы; это не точные координаты подвижного/внутреннего NPC.
 
 `Deferred Sources` — сезонные точки по условиям, без непрерывного маршрута.
+Рецепты `Egg Nog`, `Gingerbread Cookie` и `Hot Apple Cider` у Smokywood Pastures
+помечены как **Feast of Winter Veil**: ближайшее окно вычисляется от текущего года
+как примерно **16 Dec - 2 Jan**. Вне события отсутствие NPC/товара не считается
+опровержением источника.
 `Skill Breakpoint Checks` — отдельные проверки цвета Spice Bread, Beer Basted Boar Ribs,
 Spicy Crawdad и порога Stewed Trout. Они не подменяют статистику источников;
 пороги выше TBC-капа 375 этим клиентом не проверяются.

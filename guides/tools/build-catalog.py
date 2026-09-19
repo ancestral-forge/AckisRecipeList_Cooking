@@ -35,6 +35,10 @@ maps = {
     1948: "Shadowmoon Valley", 1949: "Blade's Edge Mountains", 1950: "Bloodmyst Isle", 1951: "Nagrand",
     1952: "Terokkar Forest", 1955: "Shattrath City",
 }
+winter_veil = {
+    "event": "WINTER_VEIL",
+    "deferred": "Feast of Winter Veil: сезонные продавцы, примерно 16 Dec - 2 Jan; вне события отсутствие не опровергает источник",
+}
 seasonal = {13420, 13429, 13432, 13433, 13435, 23010, 23012, 23064}
 capitals_horde = {1454, 1456, 1458, 1954}
 nodes, cases, excluded = {}, {}, []
@@ -70,7 +74,8 @@ def node(npc_id):
     else:
         result["deferred"] = "Нет проверенных координат TBC"
     if npc_id in seasonal:
-        result["deferred"] = "Зимний Покров: проверять во время события"
+        result["deferred"] = winter_veil["deferred"]
+        result["event"] = winter_veil["event"]
     nodes[npc_id] = result
     return result
 
@@ -90,6 +95,8 @@ def add(recipe, kind, source_id, expected=True, confidence="uncertain", reason="
         case["class"] = "ROGUE"
     if npc and npc.get("deferred"):
         case["deferred"] = npc["deferred"]
+        if npc.get("event"):
+            case["event"] = npc["event"]
     elif kind not in ("vendor", "trainer", "quest"):
         case["deferred"] = "Требуется отдельная проверка происхождения; отсутствие за один заход ничего не опровергает"
     cases[case_id] = case

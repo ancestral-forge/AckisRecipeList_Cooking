@@ -223,6 +223,8 @@ check(collapsed and #world > 0, "collapsed skills detected and restored without 
 print("PASS: dungeon entrances, missing entities, invalid coordinates, TomTom and collapsed skill headers")
 
 for id = 20, 50 do recipe(id, 10, 20, 30, 40) end
+types.Vendor.entities[13435] = entity(13435, "Alliance", location(1), 55, 59)
+recipe(21144, 35, 75, 95, 115, { [types.Vendor] = { [13435] = true } })
 skill = 100; Event("SKILL_LINES_CHANGED"); Flush()
 for _, pin in ipairs(world) do if pin.group.name == "NPC 1" then vendor = pin end end
 vendor.scripts.OnEnter(vendor)
@@ -231,6 +233,10 @@ vendor.scripts.OnMouseWheel(vendor, -100)
 check(vendor.offset == #vendor.group.recipes - 16, "last page accessible")
 vendor.scripts.OnMouseWheel(vendor, 100)
 check(vendor.offset == 0, "first page accessible")
+local winter
+for _, pin in ipairs(world) do if pin.group.name == "NPC 13435" then winter = pin end end
+winter.scripts.OnEnter(winter)
+check(table.concat(GameTooltip.lines, "\n"):match("Feast of Winter Veil"), "seasonal vendor tooltip")
 local count = #frames
 for _ = 1, 5 do Event("SPELLS_CHANGED"); Event("SKILL_LINES_CHANGED"); Event("UPDATE_FACTION"); Flush() end
 check(#frames == count, "frames reused across refreshes")

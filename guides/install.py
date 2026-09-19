@@ -12,7 +12,7 @@ addons = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(
     "/Applications/World of Warcraft/_anniversary_/Interface/AddOns"
 )
 target = addons / source.name
-files = ("Guidelime_CookingTriage.toc", "Catalog.lua", "SkillChecks.lua", "Route.lua", "Verification.lua",
+files = ("Guidelime_CookingTriage.toc", "Catalog.lua", "SkillChecks.lua", "Seasons.lua", "Route.lua", "Verification.lua",
          "Recorder.lua", "Review.lua", "TomTom.lua", "Guides.lua")
 for dependency in ("Guidelime", "TomTom"):
     if not (addons / dependency).is_dir():

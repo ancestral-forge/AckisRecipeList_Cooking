@@ -100,5 +100,9 @@ note("*Отложенные источники.* Этот раздел не об
 local deferred = {}
 for id, node in pairs(addon.nodes) do if node.deferred then deferred[#deferred + 1] = id end end
 table.sort(deferred)
-for _, id in ipairs(deferred) do visit(id, addon.nodes[id].deferred .. ". Если координат нет, найди NPC по имени; результат можно отметить через /ctriage npc " .. id .. ".") end
+for _, id in ipairs(deferred) do
+    local node = addon.nodes[id]
+    local text = (node.event and addon.SeasonText and addon.SeasonText(node.event)) or node.deferred
+    visit(id, text .. ". Если координат нет, найди NPC по имени; результат можно отметить через /ctriage npc " .. id .. ".")
+end
 note("Для случайных источников и стартовых рецептов нет гарантированной точки меню. /ctriage deferred открывает их список. Подтверждай фактический источник с пояснением, а не наличие изученного рецепта или предмета в кэше.")

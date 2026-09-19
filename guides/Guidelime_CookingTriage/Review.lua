@@ -88,7 +88,8 @@ local function createPanel()
                 _G.GameTooltip:AddLine(stock == "Limited: 1" and "По наблюдению игрока: продано по одному экземпляру каждого рецепта."
                     or "Автоскан видел ограниченный остаток. Максимальный запас неизвестен.", 0.8, 0.8, 0.8, true)
             end
-            _G.GameTooltip:AddLine(row.case.deferred or "Наличие в базе не является живой проверкой.", 0.8, 0.8, 0.8, true)
+            _G.GameTooltip:AddLine((row.case.event and addon.SeasonText and addon.SeasonText(row.case.event))
+                or row.case.deferred or "Наличие в базе не является живой проверкой.", 0.8, 0.8, 0.8, true)
             _G.GameTooltip:AddLine(row.case.id, 0.7, 0.7, 0.7)
             _G.GameTooltip:Show()
         end)
