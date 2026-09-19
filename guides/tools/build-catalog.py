@@ -37,7 +37,7 @@ maps = {
 }
 winter_veil = {
     "event": "WINTER_VEIL",
-    "deferred": "Feast of Winter Veil: сезонные продавцы, примерно 16 Dec - 2 Jan; вне события отсутствие не опровергает источник",
+    "deferred": "Seasonal Event: Feast of Winter Veil",
 }
 seasonal = {13420, 13429, 13432, 13433, 13435, 23010, 23012, 23064}
 daily_reward_quests = {11377, 11379, 11380, 11381, 11665, 11666, 11667, 11668, 11669}

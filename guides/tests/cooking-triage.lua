@@ -68,7 +68,7 @@ assert(dailyCase and dailyCase.requiresLevel == 70 and dailyCase.reward == "dail
 load(source .. "SkillChecks.lua", "Guidelime_CookingTriage", pack)
 load(source .. "Seasons.lua", "Guidelime_CookingTriage", pack)
 local winterText = pack.SeasonText("WINTER_VEIL", os.time({year = 2026, month = 9, day = 19, hour = 12}))
-assert(winterText:match("Feast of Winter Veil") and winterText:match("2026%-12%-16") and winterText:match("2027%-01%-02"))
+assert(winterText == "Seasonal Event: Feast of Winter Veil")
 load(source .. "Route.lua", "Guidelime_CookingTriage", pack)
 load(source .. "TomTom.lua", "Guidelime_CookingTriage", pack)
 local watcher = frames[1]

@@ -4,10 +4,6 @@
 
 local type = _G.type
 
-local date = _G.date or os.date
-local time = _G.time or os.time
-
-
 -- ----------------------------------------------------------------------------
 -- AddOn namespace.
 -- ----------------------------------------------------------------------------
@@ -23,42 +19,13 @@ local BASIC_COLORS = private.BASIC_COLORS
 local CATEGORY_COLORS = private.CATEGORY_COLORS
 local COORDINATES_FORMAT = private.COORDINATES_FORMAT
 
-local russian = _G.GetLocale and _G.GetLocale() == "ruRU"
-local labels = russian and {
-	seasonalPrefix = "Сезонное событие",
-	winterVeil = "Feast of Winter Veil: примерно %s - %s. Вне события отсутствие не опровергает источник.",
-	winterVeilTooltip = "примерно %s - %s; вне события отсутствие не опровергает источник",
-} or {
-	seasonalPrefix = "Seasonal event",
-	winterVeil = "Feast of Winter Veil: roughly %s - %s. Absence outside the event does not disprove the source.",
-	winterVeilTooltip = "roughly %s - %s; absence outside the event does not disprove the source",
-}
+local labels = { seasonalPrefix = "Seasonal Event", winterVeil = "Feast of Winter Veil" }
 local winterVeilVendors = {[13420]=true, [13429]=true, [13432]=true, [13433]=true, [13435]=true, [23010]=true, [23012]=true, [23064]=true}
 local winterVeilRecipes = {[21143]=true, [21144]=true, [45022]=true}
 
-local function WinterVeilWindow()
-	local now = time()
-	local today = date("*t", now)
-	local startYear = today.year
-	if today.month == 1 then
-		startYear = today.year - 1
-	end
-	local startTime = time({year = startYear, month = 12, day = 16, hour = 0})
-	local endTime = time({year = startYear + 1, month = 1, day = 2, hour = 23, min = 59})
-	if now > endTime then
-		startYear = startYear + 1
-		startTime = time({year = startYear, month = 12, day = 16, hour = 0})
-		endTime = time({year = startYear + 1, month = 1, day = 2, hour = 23, min = 59})
-	end
-	return date("%Y-%m-%d", startTime), date("%Y-%m-%d", endTime)
-end
-
-local function WinterVeilNote(spellID, vendorID, tooltip)
+local function WinterVeilNote(spellID, vendorID)
 	if winterVeilVendors[vendorID] and winterVeilRecipes[spellID] then
-		if tooltip then
-			return labels.winterVeilTooltip:format(WinterVeilWindow())
-		end
-		return labels.winterVeil:format(WinterVeilWindow())
+		return labels.winterVeil
 	end
 end
 
@@ -162,7 +129,7 @@ private.RegisterAcquireType({
 		if type(quantity) == "number" then
 			addline_func(2, -2, true, L["LIMITED_SUPPLY"], self:ColorData(), ("(%d)"):format(quantity), BASIC_COLORS.white)
 		end
-		local seasonal_note = WinterVeilNote(recipe:SpellID(), identifier, true)
+		local seasonal_note = WinterVeilNote(recipe:SpellID(), identifier)
 		if seasonal_note then
 			addline_func(2, -2, true, labels.seasonalPrefix, self:ColorData(), seasonal_note, BASIC_COLORS.white)
 		end

@@ -924,8 +924,8 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(33871, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(33866, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddQuest(11377, 11379, 11380, 11381, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
-    recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    recipe:AddQuest(11377, 11379, 11380, 11381)
+    recipe:AddCustom("DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
 
     -- Broiled Bloodfin -- 43761
     recipe = AddRecipe(43761, V.TBC, Q.UNCOMMON)
@@ -960,8 +960,8 @@ function module:InitializeRecipes()
     recipe:SetRecipeItem(33925, "BIND_ON_PICKUP")
     recipe:SetCraftedItem(33924, "BIND_ON_EQUIP")
     recipe:AddFilters(F.ALLIANCE, F.HORDE)
-    recipe:AddQuest(11377, 11379, 11380, 11381, 13100, 13101, 13102, 13103, 13107, 13112, 13113, 13114, 13115, 13116)
-    recipe:AddCustom("DAILY_COOKING_DAL", "DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
+    recipe:AddQuest(11377, 11379, 11380, 11381)
+    recipe:AddCustom("DAILY_COOKING_FISH", "DAILY_COOKING_MEAT")
 
     -------------------------------------------------------------------------------
     -- Wrath of the Lich King.

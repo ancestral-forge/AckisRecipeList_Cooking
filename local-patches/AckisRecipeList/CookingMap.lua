@@ -10,12 +10,12 @@ local labels = russian and {
     title = "Кулинария", reputation = "Нужна репутация: %s — %s",
     page = "%d–%d из %d. Колесо мыши — остальные рецепты.",
     route = "ЛКМ — маршрут TomTom", on = "Метки готовки включены.", off = "Метки готовки выключены.",
-    winterVeil = "Feast of Winter Veil: примерно %s - %s. Вне события отсутствие не опровергает источник.",
+    winterVeil = "Seasonal Event: Feast of Winter Veil",
 } or {
     title = "Cooking", reputation = "Requires reputation: %s — %s",
     page = "%d–%d of %d. Mouse wheel to scroll recipes.",
     route = "Left click for a TomTom waypoint", on = "Cooking pins enabled.", off = "Cooking pins disabled.",
-    winterVeil = "Feast of Winter Veil: roughly %s - %s. Absence outside the event does not disprove the source.",
+    winterVeil = "Seasonal Event: Feast of Winter Veil",
 }
 local textures = {
     [types.Vendor] = "Interface\\GossipFrame\\VendorGossipIcon",
@@ -31,24 +31,9 @@ local PAGE_SIZE = 16
 local winterVeilVendors = {[13420]=true, [13429]=true, [13432]=true, [13433]=true, [13435]=true, [23010]=true, [23012]=true, [23064]=true}
 local winterVeilRecipes = {[21143]=true, [21144]=true, [45022]=true}
 
-local function WinterVeilWindow()
-    local now = (_G.time or os.time)()
-    local today = (_G.date or os.date)("*t", now)
-    local startYear = today.year
-    if today.month == 1 then startYear = today.year - 1 end
-    local startTime = (_G.time or os.time)({year = startYear, month = 12, day = 16, hour = 0})
-    local endTime = (_G.time or os.time)({year = startYear + 1, month = 1, day = 2, hour = 23, min = 59})
-    if now > endTime then
-        startYear = startYear + 1
-        startTime = (_G.time or os.time)({year = startYear, month = 12, day = 16, hour = 0})
-        endTime = (_G.time or os.time)({year = startYear + 1, month = 1, day = 2, hour = 23, min = 59})
-    end
-    return (_G.date or os.date)("%Y-%m-%d", startTime), (_G.date or os.date)("%Y-%m-%d", endTime)
-end
-
 local function SeasonalNote(group, spellID)
     if group.acquireType == types.Vendor and winterVeilVendors[group.sourceID] and winterVeilRecipes[spellID] then
-        return labels.winterVeil:format(WinterVeilWindow())
+        return labels.winterVeil
     end
 end
 

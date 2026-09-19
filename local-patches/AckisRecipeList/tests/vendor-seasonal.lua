@@ -72,9 +72,9 @@ end
 
 acquireType._func_insert_tooltip_text(acquireType, recipe(21144), 13435, nil, nil, addline_func)
 local tooltip = table.concat(tooltipLines, "\n")
-check(tooltip:match("Сезонное событие"), "seasonal tooltip label")
-check(tooltip:match("2026%-12%-16") and tooltip:match("2027%-01%-02"), "dynamic Winter Veil dates in tooltip")
-check(tooltip:match("вне события"), "absence caveat in tooltip")
+check(tooltip:match("Seasonal Event"), "seasonal tooltip label")
+check(tooltip:match("Feast of Winter Veil"), "seasonal event name in tooltip")
+check(not tooltip:match("2026%-12%-16") and not tooltip:match("absence outside"), "seasonal tooltip stays compact")
 
 tooltipLines = {}
 acquireType._func_insert_tooltip_text(acquireType, recipe(2540), 1, nil, nil, addline_func)
@@ -86,6 +86,6 @@ local listText = {}
 for _, entry in ipairs(entries) do listText[#listText + 1] = entry.text end
 listText = table.concat(listText, "\n")
 check(listText:match("Feast of Winter Veil"), "seasonal note shown in expanded list")
-check(listText:match("2026%-12%-16") and listText:match("2027%-01%-02"), "dynamic Winter Veil dates in list")
+check(not listText:match("2026%-12%-16") and not listText:match("absence outside"), "seasonal list note stays compact")
 
 print("PASS: seasonal vendor notes appear in classic ARL vendor tooltip and expanded source list")
